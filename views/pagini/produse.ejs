@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<html lang="ro">
+
+    <head>
+	<meta name="description" content="Suntem o societate infiintata in anul 2002 cu obiectivul principal de activitate Transport Persoane Intern; din pasiunea pentru acest domeniu am ales mereu sa ne perfectionam si sa devenim un lider in domeniul transportului de persoane.">
+	 <meta name="keywords" content=" transport, persoane, intern, angajare">
+      
+        <title>SC SOG TRANS SRL</title>  
+<%- include("../fragmente/head") %> <!-- afiseaza rezultatul functiei include()--> 
+    </head>
+
+<body>
+	<%- include("../fragmente/header") %> <!-- afiseaza rezultatul functiei include()--> 
+	<main>
+        <br>
+        <br>
+        <label> Numar locuri: <input type="text" id="inp-calorii" value=""></label>
+        <br>
+        <label> Pret pe km: (min 0) <input type="range" id="inp-pret" value="1" min="0"  max="50" onchange="rangevalue.value=value">(max 50)</label>
+        <output id="rangevalue">1</output>
+        <p>Aer conditionat?</p>
+  <input type="radio" id="age1" name="age">
+  <label for="age1">niciun filtru</label><br>
+  <input type="radio" id="age2" name="age" >
+  <label for="age2">da</label><br>  
+  <input type="radio" id="age3" name="age">
+  <label for="age3">nu</label><br><br>
+  <!-- <input type="submit" value="Submit"> -->
+  <p>Caracteristici</p>
+<label class="container">AC
+  <input type="checkbox" checked="checked">
+  <span class="checkmark"></span>
+</label>
+<label class="container">TV
+  <input type="checkbox">
+  <span class="checkmark"></span>
+</label>
+<label class="container">Radio
+  <input type="checkbox">
+  <span class="checkmark"></span>
+</label>
+<label class="container">Frigider
+  <input type="checkbox">
+  <span class="checkmark"></span>
+</label>  
+<!-- <input type="submit" value="Submit"> -->
+<br>
+  <label>Select simplu:
+            <select id="inp-categorie">
+                <% for( let categorie of locals.categorii) { %>
+                    <option value="<%- categorie.categ %>"><%- categorie.categ %></option>
+                <% } %>
+            </select>
+        </label>
+        <p>
+        <button id="filtrare">Filtreaza</button>
+        <button id="sortCrescNume">Sorteaza crescator dupa nume</button>
+        <button id="sortDescrescNume">Sorteaza descrescator dupa nume</button>
+        <button id="resetare">Reseteaza</button>
+        </p>
+        <!-- <p id="p-suma">Apasați Alt+"c" pentru suma preturilor produselor afișate. </p> -->
+        <section id="produse">
+            <h2>Produse</h2>
+            <div class="grid-produse">
+                <% for( let prod of locals.produse) { %>
+                    <article class="produs">
+                        <h3 class="nume">Nume: <a href="/produs/<%-prod.id %>" ><span class="val-nume"><%- prod.nume%></span></a></h3>
+                        <p class="categorie">Categorie:<span class="val-categorie"><%- prod.categorie%></span></p>
+                        <p class="descriere">Descriere:<span class="val-categorie"><%- prod.descriere%></span></p>
+                        <figure>
+                            <img src="/resurse/imagini/produse/<%- prod.imagine %>" style="width:50%;height:auto;" alt="[imagine <%- prod.nume %>]" />
+                        </figure>
+                        <div class="info-prod">
+                            <p class="pret">Pret pe km: <span class="val-pret"><%- prod.pret_km%></span></p>
+                            <p class="culoare">Culoare: <span class="val-culoare"><%- prod.culoare%></span></p>
+                            <p class="data-achizitionare">Data achizitionare: <span class="val-achizitionare"><%- prod.data_achizitionare%></span></p>
+                            <p class="aer-conditionat">Aer conditionat: <span class="val-aer"><%- prod.aer_conditionat%></span></p>
+                            <p class="caracteristici">Caracteristici: <span class="val-caracteristici"><%- prod.caracteristici%></span></p>
+                        </div>
+                        
+                    </article>
+                <% }%>
+            </div>
+        </section>
+    </main>
+    
+
+    <%- include("../fragmente/footer") %>
+    </body>
+</html>
+
