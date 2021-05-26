@@ -1,0 +1,82 @@
+/* @import "animatie-banner.css";
+@import "layout-responsive.css"
+@import "link-top.css";
+@import "stilizare-hr.css";
+@import "stilizare-tabel.css";
+@import "stilizare-taburi.css";
+@import "variante-meniu.css"; */
+
+html {
+  font-size:16px;
+  --culoare-albastru-deschis:#79ABED;
+  --culoare-albastru-deschis-1: #72A2E0;
+  --culoare-albastru-normal: #6590C7;
+  --culoare-albastru-inchis:#5274A1;
+  --culoare-albastru-inchis-1:#314661;
+  --culoare-albastru-light:#BCE2F5;
+  --culoare-alb: white;
+  --culoare-negru:black;
+  background-color:var(--culoare-albastru-light);
+  --culoare-albastru-ok: #b5dce1;
+}
+/* font GoogleAPI */
+h1 {
+  font-family: 'New Tegomin', serif;
+  font-size: 3rem;
+}
+
+/* counter */
+tr::before {
+  counter-increment: section;
+  content: "Linia " counter(section) ": ";
+}
+
+body{
+  counter-reset: section;
+  background-attachment: fixed;
+    background-size: cover;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top:0;
+    padding-bottom:0;
+}
+
+h1{
+    font-size: 3rem;
+}
+.casa1:a{
+  opacity:0;
+}
+.casa1:hover{
+  opacity:1;
+}
+#ifr-video{
+  /* width: 100%;
+  max-width: 55rem; */
+   width:100%;
+  margin:0;
+  border:0;
+}
+
+ul li{
+    list-style-type: disc;
+    list-style-position: inside;
+    padding: 10px 0 10px 20px;
+    text-indent: -2em;
+}
+
+
+/* main{
+    background: var(--culoare-alb); 
+    border-left:1px solid grey;
+    border-right:1px solid grey;
+    
+}
+footer{
+    background-color: var(--culoare-albastru-inchis);
+    color: var(--culoare-alb);
+    padding-left:4%;
+    padding-right:4%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+} */

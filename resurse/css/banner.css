@@ -1,0 +1,29 @@
+
+#banner {
+	--banner_color: var(--culoare-negru);
+	display: block;
+	background: var(--culoare-albastru-inchis);
+	height: 50px;
+	position: fixed;
+	right: 0px;
+	left: 0px;
+	bottom: -100px;
+	animation-name: banner;
+	animation-duration: 3s;
+	animation-iteration-count: 1;
+}
+
+#banner p{
+	text-align:center;
+	font-size:25px;
+	position: relative;
+	bottom: 12.5px;
+}
+
+@keyframes banner{
+	0% {bottom: -50px;}
+	21% {bottom: 10px;}
+	42% {bottom: 0px;}
+	85% {bottom: 0px;}
+	100% {bottom: -50px;}
+}

@@ -1,0 +1,32 @@
+  @import "main.css";
+
+  #myBtn {
+        max-width: 30px;
+        width: 50%;
+        height: 30px;
+        font-size: 15px;
+         color: var(--culoare-albastru-inchis);
+        border-color: var(--culoare-albastru-deschis);
+        background-color: var(--culoare-albastru-deschis);
+        padding: .6px;
+        border-radius: 50%;
+        opacity: 0.9;
+        filter: alpha(opacity=90);
+        transition: 0.5s;
+        box-shadow:1px 1px 10px 2px var(--culoare-albastru-inchis);
+        margin-left: 2px;
+        margin-bottom:2px;
+        text-decoration: none;
+        position: fixed;
+        bottom: 0px;
+        right: 0px; 
+  }
+#myBtn:hover {
+  opacity: 7;
+  color: var(--culoare-albastru-inchis);
+  box-shadow:1px 1px 15px 3px var(--culoare-negru);
+  text-shadow: 0px 0px 0px var(--culoare-negru); 
+  text-decoration: none;
+  }
+   
+

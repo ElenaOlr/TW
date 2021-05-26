@@ -1,0 +1,17 @@
+hr {
+  background-color: var(--culoare-albastru-inchis);
+  border-radius: 10px;
+   border: 2px solid var(--culoare-albastru-inchis);
+    overflow: visible;
+    text-align: center;
+    height: 0px;
+}
+
+hr:after {
+    background: var(--culoare-albastru-light);
+    content: '✽';
+    padding: 0 15px;
+    position: relative;
+    top: -11px;
+    text-color: var(--culoare-albastru-inchis);
+}

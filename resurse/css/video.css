@@ -1,0 +1,15 @@
+#videocli {
+  border-radius: 10px;
+  width: 1024px;
+  height: 576px;
+  position: relative;
+}
+
+video::cue {
+  position: fixed;
+  top: 0;
+  background-color: black;
+  color: white;
+  
+  
+}

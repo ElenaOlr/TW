@@ -1,0 +1,74 @@
+/* #galerie-statica{
+  padding-left:0%;
+  padding-right:4%;
+}
+
+.grid-galerie {
+ padding-bottom:3%;
+ display:grid;
+ grid-template-columns: repeat(3,1fr);
+ gap: 1rem;
+ grid-auto-rows: minmax(100px, auto);
+ grid-row-gap:2em;
+ grid-column-gap:3em;
+}
+
+
+.grid-galerie img{
+  width: 100%;
+}
+
+.grid-galerie figcaption{
+  text-align:center;
+}
+
+.box1{
+  grid-area: 1 / 1 / 4 / 2;
+}
+
+} */
+
+#gr {
+  display:grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-row-gap:0.5em;
+  grid-column-gap:0.5em;
+ }
+ #gr img{
+   width: 100%;
+ }
+ #gr figcaption{
+   text-align:center;
+ }
+#gr>figure:nth-child(5){
+  grid-area: 4/1/5/2;
+}
+ #gr>figure:nth-child(6){
+  grid-area: 4/3/5/4;
+}
+#gr>figure:nth-child(7){
+  grid-area: 4/2/5/3;
+}
+#gr>figure:nth-child(8){
+  grid-area: 3/3/4/4;
+}
+#gr>figure:nth-child(9){
+  grid-area: 3/1/4/2;
+}
+/* urmaresc cu inspect imaginea pe care vreau sa o mut si pun coordonatele imaginii unde vreau sa ajunga (+1) */
+#gr>figure:nth-child(10){
+  grid-area: 2/3/3/4;
+}
+
+ @media screen and (max-width:1200px){
+  #gr{
+      grid-template-columns:repeat(2,1fr);
+  }
+}
+@media screen and (max-width:600px){
+#gr {
+    display:block;
+    /* grid-template-columns: 1fr; */
+    width: 60%;
+}
+} 

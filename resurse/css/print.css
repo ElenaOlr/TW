@@ -1,0 +1,106 @@
+@page {
+     /* size: A4 portrait; */
+    margin-bottom:2cm;
+    margin-top:2cm;
+    /* counter-increment: page;  */
+        
+}
+@page:left{
+
+    margin-left:2.5cm;
+    margin-right:0.5cm;
+    border-radius: 20cm;
+}
+@page:right{
+
+    margin-right:2.5cm;
+    margin-left:0.5cm;
+}
+
+
+
+#banner{
+    visibility: visible;
+    width: 80%;
+    position: absolute;
+    top: 0em;
+    border: 1px solid black;
+    padding: 0.2em;
+    text-align: center;
+    margin-left: auto; 
+    margin-right: auto;
+
+}
+
+h1{
+    /* page-break-after: always; */
+    margin-top: 50%;
+    text-align:center;
+    margin-left:1cm;
+    text-size-adjust: 2.5em;
+    text-decoration: underline;
+}
+
+
+#galerie-statica{
+    visibility: hidden;
+    position: absolute; 
+}
+header {
+    page-break-after: always;
+}
+main {
+    page-break-after: always;
+}
+.flex-list {
+    visibility: hidden;
+    position: absolute;
+}
+img, iframe, picture, video{
+    visibility: hidden;
+    position: absolute;
+}
+
+#myBtn{
+    visibility: hidden;
+    position: absolute;
+}
+.meniu{
+    visibility: hidden;
+    position: absolute;
+}
+.printeaza{
+    visibility: hidden;
+    position: absolute;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
+.watermark{
+    display:block;
+    position:fixed;
+    right:0;
+    bottom:0;
+    width: 100px;
+    height:2cm;
+    border:3px double black;
+    border-radius:5px;
+    opacity: 0.65;
+}
+.watermark p{
+    margin-top:8px;
+    line-height: 1px;
+    text-align: center;
+    font-weight: bold;
+    margin-left: auto; 
+    margin-right: auto;
+
+}
+
+
+
+
+

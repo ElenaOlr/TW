@@ -1,0 +1,128 @@
+$culoare-albastru-deschis:#79ABED;
+$culoare-albastru-deschis-1: #72A2E0;
+$culoare-albastru-normal: #6590C7;
+$culoare-albastru-inchis:#5274A1;
+$culoare-albastru-inchis-1:#314661;
+$culoare-albastru-light:#BCE2F5;
+$culoare-alb: white;
+$culoare-negru:black;
+$culoare-albastru-ok: #b5dce1;
+
+nav ul.meniu ul{
+    display: none;
+	position:absolute;
+	width:100%;
+}
+nav{
+    
+    height:3rem;
+    width:100%;
+    top:0;
+    padding:0;
+    background: $culoare-albastru-deschis-1;
+    z-index:10;
+    position:sticky;
+
+    &:hover > ul {
+        display: block;
+        animation-name: aparitie_meniu;
+        animation-iteration-count:1;
+        animation-duration:0.3s;
+        animation-fill-mode:forwards;
+        animation-timing-function:linear;
+      }
+}
+nav ul.meniu>li{
+    float:left;
+    width:90px;
+	position:relative;
+}
+
+nav ul, nav li{
+    padding:0;
+    margin:0;
+}
+nav ul.meniu li{
+    text-align:center;
+    list-style-type: none;
+    background: $culoare-albastru-deschis-1;
+    cursor:pointer;
+}
+nav ul.meniu li a, nav ul.meniu li div{
+    text-decoration: none;
+    color:black;
+    display: block;
+    font-weight:bold;
+    height:3rem;
+    line-height:3rem;
+    outline:none;
+}
+ul.meniu a:hover, ul.meniu div:hover{
+    color: $culoare-alb;
+}
+
+ul.meniu a, ul.meniu div{
+   transition:  700ms linear; 
+}
+nav ul.meniu>li:hover>ul{
+	display:block;
+    animation-name: aparitie_meniu;
+    animation-iteration-count:1;
+    animation-duration:0.5s;
+    animation-fill-mode:forwards;
+    animation-timing-function:linear;
+}
+
+
+.hamburger {
+    color: black;
+    font-size: 22px;
+    cursor: pointer;
+    transition: color 200ms linear;
+  
+    &:hover {
+      color: var(--text-color);
+    }
+  }
+#ch-menu{
+    display: none ;
+}
+#hamburger img{
+    height:100%;
+    width:auto;
+  }
+
+
+  @keyframes aparitie_meniu {
+    0% {
+      opacity: 0;
+      transform: scale(1,0);
+      transform-origin: top;
+    }
+    50%{
+      transform: scale(1,1);
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes aparitie_bare {
+    0% {
+      opacity: 0;
+      transform: scale(1,0);
+      transform-origin: top;
+    }
+    50%{
+      transform: scale(1,1);
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+.casa1{
+  opacity: 0 ;
+}
+.casa1:hover {
+  opacity: 1;
+}

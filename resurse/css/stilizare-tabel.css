@@ -1,0 +1,28 @@
+
+.table-container {
+ overflow-x: auto;
+}
+table {
+  border: solid 2px var(--culoare-negru);
+  border-radius: 15px;
+  margin-left: 20px;
+  margin-right:20px;
+  white-space: nowrap;
+}
+
+td, th {
+
+  border-collapse: separate;
+}
+
+tbody td:nth-child(odd) {
+  background-color: var(--culoare-albastru-deschis)
+}
+tbody td:nth-child(2n) {
+  background-color: var(--culoare-albastru-normal)
+}
+
+tr:hover .active{
+        background-color: var(--culoare-albastru-inchis);
+      }
+
