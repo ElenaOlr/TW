@@ -1,0 +1,246 @@
+{
+	"cale_galerie":"resurse/imagini/galerie",
+	"imagini": [
+		
+                {
+                        "cale_imagine":"auto2_.jpg",
+                        "titlu":"Autocar 50 locuri",
+                        "descriere":"transport elevi",
+                        "sfert_ora":"4"
+                },
+		{
+                        "cale_imagine":"auto2_.jpg",
+                        "titlu":"Autocar 45 locuri",
+                        "descriere":"transport studenti",
+                        "sfert_ora":"4"
+		},
+		{
+                        "cale_imagine":"auto3_.jpg",
+                        "titlu":"Autocar 40 locuri",
+                        "descriere":"transport sportivi",
+                        "sfert_ora":"4"
+		},
+		{
+                        "cale_imagine":"auto4_.jpg",
+                        "titlu":"Autocar 50 locuri",
+                        "descriere":"transport sportivi",
+                        "sfert_ora":"4"
+		},
+		{
+                        "cale_imagine":"auto5_.jpg",
+                        "titlu":"Autocar 45 locuri",
+                        "descriere":"transport elevi",
+                        "sfert_ora":"4"
+		},
+		{
+                        "cale_imagine":"auto6_.jpg",
+                        "titlu":"Autocar 40 locuri",
+                        "descriere":"transport studenti",
+                        "sfert_ora":"4"
+		},
+		{
+                        "cale_imagine":"auto7_.jpg",
+                        "titlu":"Autocar 50 locuri",
+                        "descriere":"transport studenti",
+                        "sfert_ora":"4"
+		},
+		{
+                        "cale_imagine":"auto8_.jpg",
+                        "titlu":"Autocar 45 locuri",
+                        "descriere":"transport elevi",
+                        "sfert_ora":"4"
+		},
+		{
+                        "cale_imagine":"auto9_.jpg",
+                        "titlu":"Autocar 40 locuri",
+                        "descriere":"transport sportivi",
+                        "sfert_ora":"4"
+		},
+		{
+                        "cale_imagine":"auto10_.jpg",
+                        "titlu":"Autocar 50 locuri",
+                        "descriere":"transport persoane",
+                        "sfert_ora":"4"
+		},
+		{
+                        "cale_imagine":"auto11_.jpg",
+                        "titlu":"Autocar 50 locuri",
+                        "descriere":"transport persoane",
+                        "sfert_ora":"3"
+		},
+		{
+                        "cale_imagine":"auto12_.jpg",
+                        "titlu":"Autocar 45 locuri",
+                        "descriere":"transport studenti",
+                        "sfert_ora":"3"
+		},
+		{
+                        "cale_imagine":"auto13_.jpg",
+                        "titlu":"Autocar 40 locuri",
+                        "descriere":"transport sportivi",
+                        "sfert_ora":"3"
+		},
+		{
+                        "cale_imagine":"auto14_.jpg",
+                        "titlu":"Autocar 50 locuri",
+                        "descriere":"transport sportivi",
+                        "sfert_ora":"3"
+		},
+		{
+                        "cale_imagine":"auto15_.jpg",
+                        "titlu":"Autocar 45 locuri",
+                        "descriere":"transport elevi",
+                        "sfert_ora":"3"
+		},
+		{
+                        "cale_imagine":"auto16_.jpg",
+                        "titlu":"Autocar 40 locuri",
+                        "descriere":"transport studenti",
+                        "sfert_ora":"3"
+		},
+		{
+                        "cale_imagine":"auto17_.jpg",
+                        "titlu":"Autocar 50 locuri",
+                        "descriere":"transport studenti",
+                        "sfert_ora":"3"
+		},
+		{
+                        "cale_imagine":"auto18_.jpg",
+                        "titlu":"Autocar 45 locuri",
+                        "descriere":"transport elevi",
+                        "sfert_ora":"3"
+		},
+		{
+                        "cale_imagine":"auto19_.jpg",
+                        "titlu":"Autocar 40 locuri",
+                        "descriere":"transport sportivi",
+                        "sfert_ora":"3"
+		},
+		{
+                        "cale_imagine":"auto20_.jpg",
+                        "titlu":"Autocar 50 locuri",
+                        "descriere":"transport persoane",
+                        "sfert_ora":"3"
+		},
+		{
+                        "cale_imagine":"auto21_.jpg",
+                        "titlu":"Autocar 50 locuri",
+                        "descriere":"transport persoane",
+                        "sfert_ora":"2"
+		},
+		{
+                        "cale_imagine":"auto22_.jpg",
+                        "titlu":"Autocar 45 locuri",
+                        "descriere":"transport studenti",
+                        "sfert_ora":"2"
+		},
+		{
+                        "cale_imagine":"auto23_.jpg",
+                        "titlu":"Autocar 40 locuri",
+                        "descriere":"transport sportivi",
+                        "sfert_ora":"2"
+		},
+		{
+                        "cale_imagine":"auto24_.jpg",
+                        "titlu":"Autocar 50 locuri",
+                        "descriere":"transport sportivi",
+                        "sfert_ora":"2"
+		},
+		{
+                        "cale_imagine":"auto25_.jpg",
+                        "titlu":"Autocar 45 locuri",
+                        "descriere":"transport elevi",
+                        "sfert_ora":"2"
+		},
+		{
+                        "cale_imagine":"auto26_.jpg",
+                        "titlu":"Autocar 40 locuri",
+                        "descriere":"transport studenti",
+                        "sfert_ora":"2"
+		},
+		{
+                        "cale_imagine":"auto27_.jpg",
+                        "titlu":"Autocar 50 locuri",
+                        "descriere":"transport studenti",
+                        "sfert_ora":"2"
+		},
+		{
+                        "cale_imagine":"auto28_.jpg",
+                        "titlu":"Autocar 45 locuri",
+                        "descriere":"transport elevi",
+                        "sfert_ora":"2"
+		},
+		{
+                        "cale_imagine":"auto29_.jpg",
+                        "titlu":"Autocar 40 locuri",
+                        "descriere":"transport sportivi",
+                        "sfert_ora":"2"
+		},
+		{
+                        "cale_imagine":"auto30_.jpg",
+                        "titlu":"Autocar 50 locuri",
+                        "descriere":"transport persoane",
+                        "sfert_ora":"2"
+		},
+		{
+                        "cale_imagine":"auto31_.jpg",
+                        "titlu":"Autocar 50 locuri",
+                        "descriere":"transport persoane",
+                        "sfert_ora":"1"
+		},
+		{
+                        "cale_imagine":"auto32_.jpg",
+                        "titlu":"Autocar 45 locuri",
+                        "descriere":"transport studenti",
+                        "sfert_ora":"1"
+		},
+		{
+                        "cale_imagine":"auto33_.jpg",
+                        "titlu":"Autocar 40 locuri",
+                        "descriere":"transport sportivi",
+                        "sfert_ora":"1"
+		},
+		{
+                        "cale_imagine":"auto34_.jpg",
+                        "titlu":"Autocar 50 locuri",
+                        "descriere":"transport sportivi",
+                        "sfert_ora":"1"
+		},
+		{
+                        "cale_imagine":"auto35_.jpg",
+                        "titlu":"Autocar 45 locuri",
+                        "descriere":"transport elevi",
+                        "sfert_ora":"1"
+		},
+		{
+                        "cale_imagine":"auto36_.jpg",
+                        "titlu":"Autocar 40 locuri",
+                        "descriere":"transport studenti",
+                        "sfert_ora":"1"
+		},
+		{
+                        "cale_imagine":"auto37_.jpg",
+                        "titlu":"Autocar 50 locuri",
+                        "descriere":"transport studenti",
+                        "sfert_ora":"1"
+		},
+		{
+                        "cale_imagine":"auto38_.jpg",
+                        "titlu":"Autocar 45 locuri",
+                        "descriere":"transport elevi",
+                        "sfert_ora":"1"
+		},
+		{
+                        "cale_imagine":"auto39_.jpg",
+                        "titlu":"Autocar 40 locuri",
+                        "descriere":"transport sportivi",
+                        "sfert_ora":"1"
+		},
+		{
+                        "cale_imagine":"auto40_.jpg",
+                        "titlu":"Autocar 50 locuri",
+                        "descriere":"transport persoane",
+                        "sfert_ora":"1"
+		}
+	]
+}

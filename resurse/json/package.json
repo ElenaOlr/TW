@@ -1,0 +1,21 @@
+{
+  "name": "pr_tw",
+  "version": "1.0.0",
+  "description": "SC SOG TRANS SRL",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "transport",
+    "persoane"
+  ],
+  "author": "Elena Olaru",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "sharp": "^0.28.1"
+    "react-scripts": "^3.4.1"
+  }
+}
