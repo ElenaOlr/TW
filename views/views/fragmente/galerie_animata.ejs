@@ -1,0 +1,15 @@
+<section id="sectiune-galerie-animata">
+      <h2>Galerie animata</h2>
+      <div id="galerie-animata" class="galerie-a">
+          <% for (let imag of locals.imagini){  %>
+                  <figure>
+              <picture>
+                  <!-- il ia pe primul care se potriveste cu query-ul din media-->
+                  <source srcset="/<%-imag.small%>" media="(max-width:700px)"/>
+                  <img src="/<%-imag.normal%>" alt="text"/>
+              </picture>
+              <figcaption><%-imag.descriere%></figcaption>
+          </figure>
+          <% } %>
+      </div>
+  </section>
